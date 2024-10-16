@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Quick PiP",
+  "version": "1.0",
+  "description": "Enable Picture-in-Picture mode for any running video",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
